@@ -40,9 +40,9 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <spigot.version>1.16.1-R0.1-SNAPSHOT</spigot.version>
-    <plugin.version>1.1.9</plugin.version>
-    <buildNumber>unknown</buildNumber>
+    <spigot.version>1.16.4-R0.1-SNAPSHOT</spigot.version>
+    <plugin.version>1.1.10</plugin.version>
+    <buildNumber>28</buildNumber>
   </properties>
 
   <repositories>

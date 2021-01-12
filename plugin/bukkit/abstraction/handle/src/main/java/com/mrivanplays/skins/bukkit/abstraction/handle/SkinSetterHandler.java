@@ -7,6 +7,7 @@ import com.mrivanplays.skins.bukkit.abstraction.SkinSetter1_14_R1;
 import com.mrivanplays.skins.bukkit.abstraction.SkinSetter1_15_R1;
 import com.mrivanplays.skins.bukkit.abstraction.SkinSetter1_16_R1;
 import com.mrivanplays.skins.bukkit.abstraction.SkinSetter1_16_R2;
+import com.mrivanplays.skins.bukkit.abstraction.SkinSetter1_16_R4;
 import com.mrivanplays.skins.bukkit.abstraction.SupportedVersions;
 
 public class SkinSetterHandler {
@@ -31,8 +32,10 @@ public class SkinSetterHandler {
         instance = new SkinSetter1_15_R1();
       } else if (version == SupportedVersions.v1_16_R1) {
         instance = new SkinSetter1_16_R1();
-      } else {
+      } else if (version == SupportedVersions.v1_16_R2) {
         instance = new SkinSetter1_16_R2();
+      } else {
+        instance = new SkinSetter1_16_R4();
       }
     }
     return instance;

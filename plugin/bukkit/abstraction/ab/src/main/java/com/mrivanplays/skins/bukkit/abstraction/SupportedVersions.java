@@ -8,7 +8,8 @@ public enum SupportedVersions {
   v1_14_R1(477),
   v1_15_R1(573),
   v1_16_R1(736),
-  v1_16_R2(751);
+  v1_16_R2(751),
+  v1_16_R3(753);
 
   private static final String nmsVersionString =
       Bukkit.getServer().getClass().getName().replace(".", ",").split(",")[3];
@@ -30,7 +31,7 @@ public enum SupportedVersions {
     }
   }
 
-  private int protocolVersion;
+  private final int protocolVersion;
 
   SupportedVersions(int protocolVersion) {
     this.protocolVersion = protocolVersion;

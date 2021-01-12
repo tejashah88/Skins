@@ -20,7 +20,6 @@
   <modules>
     <module>core</module>
     <module>abstraction</module>
-    <module>abstraction/v1_16_R2</module>
   </modules>
 
   <repositories>
